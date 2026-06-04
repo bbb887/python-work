@@ -3,9 +3,6 @@
 
 **基于多种智能优化算法的带时间窗车辆路径问题（VRPTW）求解器**
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![Data](https://img.shields.io/badge/data-Solomon_C101-orange)](http://web.cba.neu.edu/~msolomon/problems.htm)
 
 本项目以 **Solomon C101 标准数据集** 为测试实例，模拟多架无人机（无人机）从中央仓库出发，在 **载重、航程、时间窗** 三重约束下为所有客户提供配送服务，最终返回仓库。  
 优化目标为最小化 **综合成本 = 飞行总距离 + 时间窗超时惩罚 + 硬约束违规惩罚**。
